@@ -25,6 +25,7 @@ com o intuito de dar um treinamento para toda Nova8, afim de aprender como resol
 - [Instalação das bibliotecas do lado do servidor](#instalação-das-bibliotecas-do-lado-do-servidor)
 - [Configurando a conexão com o Banco de Dados](#configurando-a-conexão-com-o-banco-de-dados)
 - [Começando O WarGame](#começando-o-wargame)
+- [Após fazer as modificações](#após-fazer-as-modificações)
 
 ---
 
@@ -97,7 +98,9 @@ Este link vai redirecionar você ao site oficial do Nodejs, para a instalação 
 
 Lembre-se de já ter instalado e configurado o Node.
 
-Para clonar o projeto, basta iniciar o git bash em uma pasta na qual deseja subir o projeto e colocar os seguintes comandos:
+Para clonar o projeto, você precisa fazer um "Fork" do projeto, no qual irá criar um repositório no seu perfil do GitHub, que estará conectado a este repositório aqui.
+
+Depois, você precisa criar uma pasta no seu computador, no local a onde você vai colocar o projeto, e vai abrir o git bash dentro dessa pasta e colocar o comando:
 
 ```bash
 git init
@@ -106,10 +109,16 @@ git init
 E depois coloque o comando:
 
 ```bash
-git clone https://github.com/GustavoPrevelate/WebGoat-Gustavo.git
+git clone https://github.com/Nova-8/WarGame.git
 ```
 
-Após isso, suba o projeto no Visual Studio Code(VS Code).
+Após isso, você vai acessar a sua Branch pelo git bash utilizando o comando:
+
+```bash
+git checkout -b Nome_da_sua_branch
+```
+
+Com esses comandos você estará acessando a sua branch no projeto e poderá fazer as modificações que desejar.
 
 ---
 
@@ -203,5 +212,27 @@ node .\app.js
 ```
 
 Após esse comando, o servidor estará funcionando normalmente, e você já pode iniciar o arquivo index.html para subir a aplicação Web.
+
+---
+
+## Após fazer as modificações
+
+⚠️ **ATENÇÃO** ⚠️
+
+Após realizar alguma modificação no projeto e queira subir para o repositório, utilize os seguintes comandos nessa ordem:
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "Escreva_algum_comentário_sobre_sua_atualização"
+```
+
+```bash
+git push origin Nome_da_sua_branch
+```
+
+Depois você vai precisar ir até o repositório do Fork, que estará no seu perfil, e lá vai aparecer para você fazer um "Pull Request", no qual você colocará um título e um comentário sobre a atualização que você estará fazendo, assim basta esperar um colaborador aceitar seu Pull Request, e todas as modificações que você fez localmente, serão atribuidas no repositório principal do projeto, na sua branch.
 
 ---
