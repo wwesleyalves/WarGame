@@ -1,0 +1,100 @@
+.div_enviar_arquivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.div_principal_criar_vulnerabilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text_selecao_arquivo{
+    color: black;
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+}
+
+
+.div_botoes_download_enviar_banco_dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+#enviarParaBanco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    color: #000000;
+    height: 70px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+#enviarParaBanco:hover {
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+#enviarParaBanco:active {
+    background-color: #00e5ff; 
+}
+
+#download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    color: #000000;
+    height: 70px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+    margin-left: 20px;
+}
+
+#download:hover {
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+#download:active {
+    background-color: #00e5ff; 
+}

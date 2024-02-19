@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../wargame/css/style.css">
+    <title>WebGoat - Login and Register</title>
+</head>
+<body>
+
+    <div class="container">
+        <form id="registerForm" class="form">
+            <h2>Cadastro</h2>
+            <label for="registerLogin">Login:</label>
+            <input type="text" id="registerLogin" required>
+            <label for="registerName">Nome:</label>
+            <input type="text" id="registerName" required>
+            <label for="registerPassword">Senha::</label>
+            <input type="password" id="registerPassword" required>
+            <button type="button" onclick="register()">Cadastrar</button>
+        </form>
+
+        <form id="loginForm" class="form">
+            <h2>Login</h2>
+            <label for="loginLogin">Login:</label>
+            <input type="text" id="loginLogin" required>
+            <label for="loginSenha">Senha:</label>
+            <input type="password" id="loginSenha" required>
+            <button type="button" onclick="login()">Logar</button>
+        </form>
+    </div>
+
+    <script src="../wargame/js/app.js"></script>
+
+</body>
+</html>

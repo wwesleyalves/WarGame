@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGoat - Lista de Vulnerabilidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../wargame/css/vulnerabilidades.css">
+    
+</head>
+
+<body>
+    <div class="buscar">
+        <input id="inputBusca" type="text" placeholder="O que você procura?">
+        
+        <ul id="listaVulnerabilidades">
+        </ul>
+        <button class="botao_filtrar_vulnerabilidades" onclick="filtrar()">Filtrar</button>
+        
+        
+    </div>
+    
+    <h1 class="text_owasp_top_10_vulnerabilidades">OWASP Top 10 Vulnerabilidades - 2021
+        <button class="button_ir_para_criar_dados_vulnerabilidades" type="button" onclick="voltarParaCriar()"> Criar Vulnerabilidades</button>
+    </h1>
+    
+    <div id="cards"></div>
+    <script src="../wargame/js/filtrar.js"></script>
+
+    <script>
+        function voltarParaCriar() {
+            window.location.href = 'criar_dados_vulnerabilidades.html';
+        }
+    </script>
+</body>
+
+</html>

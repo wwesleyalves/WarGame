@@ -1,0 +1,24 @@
+ 17/01/2024, 10:09:32 : SELECT nome, id FROM tbl_user WHERE login = 'Teste Gustavo' AND senha = '12345' 
+ 17/01/2024, 10:19:46 : SELECT nome, id FROM tbl_user WHERE login = 'Teste Gustavo' AND senha = '12345' 
+ 18/01/2024, 10:19:38 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:19:44 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:20:18 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:21:30 : SELECT nome, id FROM tbl_user WHERE login = Teste Gustavo AND senha = 12345 
+ 18/01/2024, 10:21:35 : SELECT nome, id FROM tbl_user WHERE login = Teste Gustavo AND senha = 12345 
+ 18/01/2024, 10:23:50 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:32:11 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:33:50 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:41:33 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:41:42 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:41:50 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 10:43:48 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:03:10 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:06:00 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:07:15 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:07:32 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:07:56 : SELECT nome, id FROM tbl_user WHERE login = ? AND senha = ? 
+ 18/01/2024, 11:15:28 : SELECT nome, id FROM tbl_user WHERE login = 'Jason' AND senha = '12345' 
+ 29/01/2024, 10:17:53 : SELECT nome, id FROM tbl_user WHERE login = 'joaozinho' AND senha = '12345' 
+ 29/01/2024, 14:48:23 : SELECT nome, id FROM tbl_user WHERE login = 'felipe' AND senha = '12345' 
+ 30/01/2024, 09:18:15 : SELECT nome, id FROM tbl_user WHERE login = 'Teste gustavo' AND senha = '12345' 
+ 08/02/2024, 15:50:50 : SELECT nome, id FROM tbl_user WHERE login = 'gabriel teste' AND senha = '12345' 

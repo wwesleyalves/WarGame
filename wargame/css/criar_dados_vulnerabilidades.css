@@ -1,0 +1,202 @@
+.text_inserir_vulnerabilidade{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.button_ir_para_filtrar_vulnerabilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    color: #000000;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+    margin-left: 20px;
+}
+
+.button_ir_para_filtrar_vulnerabilidades:hover {
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+.button_ir_para_filtrar_vulnerabilidades:active {
+    background-color: #00e5ff; 
+}
+
+#vulnerabilidadeForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    background-color: #000000;
+    border: 8px solid #00e5ff;
+    border-radius: 25px;
+}
+
+.container_inserir_nome_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text_nome_vulnerabilidade{
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+#input_nome_vulnerabilidade{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 310px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+}
+
+.container_inserir_descricao_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text_descricao_vulnerabilidade{
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#input_descricao_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+}
+
+.container_inserir_link_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text_link_vulnerabilidade{
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#input_link_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+}
+
+
+.div_botoes_inserir_vulnerabilidades{
+    display: flex;
+    flex-direction: row;
+}
+
+.button_inserir_vulnerabilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    color: #000000;
+    height: 70px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+.button_inserir_vulnerabilidade:hover {
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+.button_inserir_vulnerabilidade:active {
+    background-color: #00e5ff; 
+}
+
+.button_inserir_vulnerabilidade_em_xss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 4px solid #00e5ff;
+    border-radius: 25px;
+    color: #000000;
+    height: 70px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+    margin-left: 20px;
+}
+
+.button_inserir_vulnerabilidade_em_xss:hover {
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+.button_inserir_vulnerabilidade_em_xss:active {
+    background-color: #00e5ff; 
+}
+
+.div_criar_dados_vulnerabilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

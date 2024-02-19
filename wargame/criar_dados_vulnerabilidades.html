@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../wargame/css/criar_dados_vulnerabilidades.css">
+    <link rel="stylesheet" href="../wargame/css/enviar_arquivo.css">
+
+    <script src="../wargame/js/criar_dados_vulnerabilidades.js"></script>
+    <script src="../wargame/js/salvar_dados_vulnerabilidades_em_xml.js"></script>
+
+    <title>Inserir Vulnerabilidade</title>
+</head>
+<body>
+    <div class="div_principal_criar_vulnerabilidades">
+
+        <div class="div_criar_dados_vulnerabilidades">
+            <h1 class="text_inserir_vulnerabilidade">Inserir Vulnerabilidade 
+                <button class="button_ir_para_filtrar_vulnerabilidades" type="button" onclick="irParaFiltrar()">Ir até a filtragem</button>
+            </h1>
+            
+        
+            <form id="vulnerabilidadeForm">
+                <div class="container_inserir_nome_vulnerabilidade">
+                    <label class="text_nome_vulnerabilidade" for="text_nome_vulnerabilidade">Nome da vulnerabilidade:</label>
+                    <input type="text" id="input_nome_vulnerabilidade" name="nome" required>
+                </div>
+        
+                <div class="container_inserir_descricao_vulnerabilidade">
+                    <label class="text_descricao_vulnerabilidade" for="text_descricao_vulnerabilidade">Descrição da vulnerabilidade:</label>
+                    <textarea id="input_descricao_vulnerabilidade" name="descricao" required></textarea>
+                </div>
+                
+                <div class="container_inserir_link_vulnerabilidade">
+                    <label class="text_link_vulnerabilidade" for="text_link_vulnerabilidade">Link/referência da vulnerabilidade:</label>
+                    <input type="text" id="input_link_vulnerabilidade" name="link" required>
+                </div>
+                
+                <div class="div_botoes_inserir_vulnerabilidades">
+                    <button class="button_inserir_vulnerabilidade" type="button" onclick="inserirVulnerabilidade()">Inserir vulnerabilidades</button>
+                </div>
+        
+                
+            </form>
+        </div>
+    
+        <div class="div_enviar_arquivo">
+            <label  class="text_selecao_arquivo" for="arquivo"> Selecionar arquivo XML</label>
+            <input type="file" id="arquivo">
+            <br><br>
+        
+            <textarea id="preview" cols="50" rows="8"></textarea>
+        
+            <br><br>
+
+            <div class="div_botoes_download_enviar_banco_dados">
+                <button id="enviarParaBanco">Enviar para Banco de Dados</button>
+                <button id="download">Baixar arquivo</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+
+    <script src="../wargame/js/file.js"></script>
+    
+
+    <script>
+        function irParaFiltrar() {
+        
+            window.location.href = 'filtrar_vulnerabilidades.html';
+        }
+        </script>
+</body>
+</html>
