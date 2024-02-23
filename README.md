@@ -79,6 +79,12 @@ Este link vai redirecionar você ao site oficial do MySQL, para a instação do 
 
 [Clique aqui para ir até a instação do MySQL](https://www.mysql.com/downloads/) 
 
+⚠️ **ATENÇÃO** ⚠️
+
+Caso tenha dúvida de como instalar e configurar o MySQL, acesse:
+
+[Como instalar o MySQL](https://www.youtube.com/watch?v=VSh-B7yC8kc) 
+
 ---
 
 ## Instalação do Node
