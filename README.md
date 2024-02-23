@@ -60,6 +60,7 @@ Antes de começar a corrigir as vulnerabilidades, você precisa dos seguintes pr
 - Instale todas as bibliotecas necessárias do lado do servidor(Back-end)
 - Tenha conhecimento de programação em HTML e CSS
 - Tenha conhecimento de programação em JavaScript
+- Tenha conhecimento de programação em MySQL
 
 ---
 
