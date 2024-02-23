@@ -21,6 +21,7 @@ com o intuito de dar um treinamento para toda Nova8, afim de aprender como resol
   - [Instalação Git](#instalação-git)
   - [Instalação MySQL](#instalação-mysql)
   - [Instalação do Node](#instalação-do-node)
+- [Configurando MySQL](#configurando-mysql)
 - [Clonando o projeto](#clonando-o-projeto)
 - [Instalação das bibliotecas do lado do servidor](#instalação-das-bibliotecas-do-lado-do-servidor)
 - [Configurando a conexão com o Banco de Dados](#configurando-a-conexão-com-o-banco-de-dados)
@@ -119,6 +120,22 @@ git checkout -b Nome_da_sua_branch
 ```
 
 Com esses comandos você estará acessando a sua branch no projeto e poderá fazer as modificações que desejar.
+
+---
+
+## Configurando MySQL
+
+⚠️ **ATENÇÃO** ⚠️
+
+**JAMAIS** utilize a instalação "MySQL Community (GPL) Downloads »" do MySQL **em meio de produção**, somente para fins educacionais, como é o caso deste WarGame.
+
+Após instalar o MySQL, você irá abrir o MySQL Workbench, e vai criar uma nova conexão clicando no + do MySQL Connections, depois vai aparecer para você configurar essa nova conexão, você precisara colocar o nome da conexão, o método de conexão você pode deixar como Standard (TCP/IP), depois irá mudar o Hostname, para "localhost" deixar a porta 3306, username você vai deixar o "root".
+
+Após fazer essas modificações, você vai clicar em "ok" e vai precisar colocar a senha que você definiu para seu Banco de Dados na hora da instalação, para poder acessar a conexão que você criou, depois você vai clicar em "File" e depois em "Open SQL Script..." e irá selecionar o arquivo "wargame_sql.sql" que estará nesse repositório.
+
+Depois de abrir o arquivo você vai executar o comando "create database db_wargame", depois "use db_wargame", após isso você criará a tabela tbl_user, utilizando todo o comando "create table tbl_user", após isso você vai selecionar o comando "select * from tbl_user;" para conferir se a sua tabela foi criada corretamente, depois você criará a tabela tbl_vulnerabilidades, utilizando todo o comando "create table tbl_vulnerabilidades" e novamente irá executar o comando "select * from tbl_vulnerabilidades;" para verificar se a tabela de vulnerabilidades foi criada, depois você vai selecionar todos os insert na tbl_vulnerabilidades, utilizando todo o comando "insert into tbl_vulnerabilidades", você vai selecionar desde "###### VULNERABILIDADE 1 - Broken Access Control" até o ultimo insert, logo abaixo de "###### VULNERABILIDADE 10 - Server Side Request Forgery" e irá executar, para poder inserir alguns dados na tabela de vulnerabilidades, após isso você irá criar a tabela tbl_armazenamento_arquivos, utilizando todo o comando "create table tbl_armazenamento_arquivos", logo após isso você irá executar o comando "select * from tbl_armazenamento_arquivos;" para verificar se a tabela de armazenamento de arquivos foi criada.
+
+E assim o seu Banco de Dados estará pronto para ser usado.
 
 ---
 
