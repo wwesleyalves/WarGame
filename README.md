@@ -15,7 +15,6 @@ com o intuito de dar um treinamento para toda Nova8, afim de aprender como resol
 - [Introdução WarGame](#introdução-wargame)
 - [Sumário](#sumário)
 - [O que é um WebGoat](#o-que-é-um-webgoat)
-- [Vulnerabilidades](#vulnerabilidades)
 - [Antes de começar](#antes-de-começar)
 - [Instalações](#instalações)
   - [Instalação Git](#instalação-git)
@@ -37,14 +36,6 @@ Com base no site da OWASP:
 "WebGoat é um aplicativo deliberadamente inseguro que permite que desenvolvedores interessados como você testem vulnerabilidades comumente encontrado em aplicativos baseados em Java que usam componentes de código aberto comuns e populares."
 
 [Clique aqui para entender melhor sobre o que é um WebGoat.](https://owasp.org/www-project-webgoat/) 
-
----
-
-## Vulnerabilidades
-
-Aqui contém uma documentação, explicando sobre diferentes tipos de vulnerabilidades, como elas surgem e exemplos.
-
-[Clique aqui para ir até a documentação](./war_game_vulnerabilidades_documentadas.pdf) 
 
 ---
 
