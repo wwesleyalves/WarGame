@@ -44,7 +44,7 @@ Com base no site da OWASP:
 
 Aqui contém uma documentação, explicando sobre diferentes tipos de vulnerabilidades, como elas surgem e exemplos.
 
-[Clique aqui para ir até a documentação](./wargame_nova8.pdf) 
+[Clique aqui para ir até a documentação](./war_game_vulnerabilidades_documentadas.pdf) 
 
 ---
 
