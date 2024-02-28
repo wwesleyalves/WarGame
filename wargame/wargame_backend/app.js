@@ -270,7 +270,7 @@ app.post('/xml-data', (req, res) => {
 
         try {
             const xmlDoc = libxmljs.parseXml(xmlObj.toString(), {
-                replaceEntities: false, 
+                replaceEntities: false, //CORRIGIDOAQUI
             });
 
             console.log(xmlDoc.toString());

@@ -53,6 +53,10 @@ function buscarVulnerabilidades(nome) {
 function filtrar() {
     input = document.getElementById('inputBusca');
     var filter = input.value.toUpperCase();
-
-    buscarVulnerabilidades(filter);
+    var regex = /^[a-zA-Z0-9]*$/;
+    if (regex.test(filter)) {
+        buscarVulnerabilidades(filter);
+    } else {
+        window.alert("Erro de segurança, XSS aqui não!");
+    }
 }
