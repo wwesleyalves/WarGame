@@ -43,7 +43,7 @@ function buscarVulnerabilidades(nome) {
                 mensagem.innerText = "Nenhum dado encontrado na tabela de vulnerabilidades.";
                 cards.appendChild(mensagem);
 
-                cards.innerHTML = input.value;
+                cards.innerText = input.value;
                 
             }
         })
