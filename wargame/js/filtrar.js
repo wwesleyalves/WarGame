@@ -30,9 +30,9 @@ function buscarVulnerabilidades(nome) {
                         </div>
                     `;
 
-                    cardContent.innerHTML = card
+                    cardContent.innerText = card
 
-                    card.innerHTML = cardContent;
+                    card.innerText = cardContent;
 
                     cards.appendChild(card);
                 });
@@ -43,7 +43,7 @@ function buscarVulnerabilidades(nome) {
                 mensagem.innerText = "Nenhum dado encontrado na tabela de vulnerabilidades.";
                 cards.appendChild(mensagem);
 
-                cards.innerHTML = `${input.value}`;
+                cards.innerHTML = input.value;
                 
             }
         })
