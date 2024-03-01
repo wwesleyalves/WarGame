@@ -123,8 +123,7 @@ app.get('/vulnerabilidades', (req, res) => {
     }
 
     const query = 'SELECT * FROM tbl_vulnerabilidades WHERE nome LIKE ?';
-    const searchTerm = `%${nome}%`;
-
+    
     db.query(query, [`%${nome}%`], (err, result) => {
         if (err) {
             console.error('Erro ao tentar retornar os dados:', err);
