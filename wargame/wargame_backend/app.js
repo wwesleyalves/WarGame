@@ -125,7 +125,7 @@ app.get('/vulnerabilidades', (req, res) => {
     const query = 'SELECT * FROM tbl_vulnerabilidades WHERE nome LIKE ?';
     const searchTerm = `%${nome}%`;
 
-    db.query(query, [searchTerm], (err, result) => {
+    db.query(query, [`%${nome}%`], (err, result) => {
         if (err) {
             console.error('Erro ao tentar retornar os dados:', err);
             return res.status(500).json({ success: false, message: 'Erro na busca pelos dados na tabela de vulnerabilidades' });
